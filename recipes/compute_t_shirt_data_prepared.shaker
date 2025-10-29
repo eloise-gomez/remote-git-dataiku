@@ -72,7 +72,7 @@
       "type": "DateParser",
       "params": {
         "formats": [
-          "yyyy/MM/dd"
+          "dd/MM/yyyy"
         ],
         "columns": [
           "order_date"
