@@ -24,10 +24,6 @@
       },
       {
         "d": true,
-        "name": "tshirt_price"
-      },
-      {
-        "d": true,
         "name": "tshirt_quantity"
       },
       {
@@ -70,7 +66,7 @@
   },
   "steps": [
     {
-      "preview": true,
+      "preview": false,
       "metaType": "PROCESSOR",
       "disabled": false,
       "type": "DateParser",
@@ -88,6 +84,20 @@
           "name": "out",
           "type": "date"
         }
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "tshirt_price"
+        ],
+        "keep": false,
+        "appliesTo": "SINGLE_COLUMN"
       },
       "alwaysShowComment": false
     }
