@@ -73,7 +73,6 @@
       {"name":"order_id","type":"string"},
       {"name":"customer_id","type":"string"},
       {"name":"tshirt_category","type":"string"},
-      {"name":"tshirt_price","type":"double"},
       {"name":"tshirt_quantity","type":"bigint"},
       {"name":"total","type":"double"}
     ],
