@@ -25,7 +25,6 @@ df = pd.read_csv(BytesIO(data))
 df['total'] = df['tshirt_price'] * df['tshirt_quantity']
 df['total_in_yen'] = df['tshirt_price'] * df['tshirt_quantity']
 
-
 # update text category description
 df['tshirt_category'] = df['tshirt_category'].str.replace('Wh ', 'White ')
 
